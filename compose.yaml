@@ -8,5 +8,5 @@ services:
     environment:
       - TZ=Asia/Shanghai
       - GIN_MODE=release
-      - GO_CHATGPT_API_PROXY=
+      - GO_CHATGPT_API_PROXY=https://chatgpt-proxy.fengmei.lol
     restart: unless-stopped
